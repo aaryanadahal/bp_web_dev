@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dog Generator :</title>
+    <link rel='stylesheet' type='text/css' href='index.css' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <div class="body-content">
+        <h1 class="title"> Dog Generator</h1>
+        <img src="dog emoji.png" id="dog-image" height="300px">
+        <div>
+        <input types="text" id="breed" placeholder="Enter dog breed">
+        <div class="button-container">
+            <button id="submit" onclick="getSpecificDog()">find dog!</button>
+            <button id="random" onclick="getRandomDog()">random dog!</button>
+        </div>
+    </div>
+    <div class="wallie-container">
+      <img src="wallie.jpeg" class = "wallie-image" height="500"></img>
+      <div>
+          <P class="about-the-author">
+            Hi I'm Wallie! Here is a little bit about me!
+          </P>
+          <ul>
+            <li>My name is Wallie</li>
+            <li>I am rich</li>
+            <li>I am from Boston</li>
+            <li>I am 10 years old</li>
+          </ul>
+        </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
